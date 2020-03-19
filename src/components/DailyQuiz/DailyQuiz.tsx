@@ -13,10 +13,9 @@ const proverbs = Object.entries(proverb);
 function DailyQuiz(props: any) {
   const [ymd, DateSelect] = useDate();
   const _proverbs = useMemo(() => {
-    return seedshuffle(proverbs, ymd)
+    return seedshuffle(proverbs, `${ymd}_daily`)
       .slice(0, 10)
       .map(([text, hint]: any) => {
-        // let _chr = text.replace(/[^ㄱ-ㅎ가-핳]+$/, '').split('');
         const chars = text
           .replace(/[^ㄱ-ㅎ가-핳]+$/, '')
           .split('')
@@ -54,7 +53,7 @@ function DailyQuiz(props: any) {
         <LevelDropdown />
       </div>
       <hr />
-      <ul>
+      <ul key={ymd}>
         {_proverbs.map((e, i) => (
           <li key={i}>
             <Quiz {...e} level={level} no={i + 1} />

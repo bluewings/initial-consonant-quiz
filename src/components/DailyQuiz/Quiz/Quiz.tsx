@@ -40,10 +40,12 @@ function Quiz(props: any) {
           힌트
         </a>
       )}
+      {!showAns && (
+        <a className={styles.answer} onClick={ddd}>
+          정답 확인
+        </a>
+      )}
 
-      <a className={styles.answer} onClick={ddd}>
-        정답 확인
-      </a>
       <div className={styles.clear_both} />
     </div>
   );
