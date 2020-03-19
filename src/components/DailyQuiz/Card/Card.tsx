@@ -16,9 +16,6 @@ function Card({ initial, char, open }: any) {
       </div>
     </div>
   );
-  {
-    /* return <div className={styles.root}>{open ? char : initial}</div>; */
-  }
 }
 
 export default Card;

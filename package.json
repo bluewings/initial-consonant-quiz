@@ -1,10 +1,11 @@
 {
-  "name": "cra-with-redux-router",
+  "name": "initial-consonant-quiz",
   "version": "0.1.0",
-  "homepage": "https://bluewings.github.io/cra-with-redux-router/",
+  "homepage": "https://bluewings.github.io/initial-consonant-quiz/",
   "private": true,
   "dependencies": {
     "@types/classnames": "^2.2.10",
+    "@types/lodash-es": "^4.17.3",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-redux": "^7.1.5",
@@ -12,9 +13,12 @@
     "@types/redux-actions": "^2.6.1",
     "@types/redux-persist": "^4.3.1",
     "@types/seedrandom": "^2.4.28",
+    "@types/typography": "^0.16.3",
     "antd": "^4.0.3",
+    "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "date-fns": "^2.11.0",
+    "lodash-es": "^4.17.15",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-github-corner": "^2.3.0",
@@ -24,6 +28,8 @@
     "redux-persist": "^6.0.0",
     "seedrandom": "^3.0.5",
     "typescript": "~3.7.2",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19",
     "use-immer": "^0.3.5"
   },
   "devDependencies": {

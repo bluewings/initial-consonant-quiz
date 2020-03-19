@@ -1,0 +1,62 @@
+$title-size: 4rem;
+
+.title {
+  font-family: fromdamiM;
+  font-size: $title-size;
+  line-height: $title-size;
+  word-break: keep-all;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 1rem 0;
+  border-top-color: rgba(0, 0, 0, 0.85);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  // box-shadow: 0 1px 0 0 currentColor;
+  color: #007acc !important;
+  text-decoration: none;
+}
+
+.root {
+  // background: #fff;
+  // padding: 10px;
+  // font-family: 'Do Hyeon', sans-serif;
+  // font-family: 'Jua', sans-serif;
+  // font-family: 'SDKukdetopokki-Lt', MapoDPPA, 'Binggrae-Bold', Cafe24Danjunghae;
+  // // font-family: 'Black Han Sans', sans-serif;
+  // font-family: Cafe24Dangdanghae;
+  // font-family: MapoDPPA, Cafe24Danjunghae;
+  // font-family: Cafe24Simplehae;
+
+  // font-size: 1.25rem;
+
+  // h1,
+  // h2,
+  // h3 {
+  //   // font-family: fromdamiM;
+  // }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .card {
+    padding: 0.25rem;
+    display: inline-block;
+    border: 1px solid silver;
+    font-family: MapoDPPA;
+    margin: 0.25rem;
+  }
+}

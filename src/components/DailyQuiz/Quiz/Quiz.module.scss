@@ -1,0 +1,33 @@
+.root {
+  // background: #E51FA0;
+  // padding: 10px;
+  // border: 1px solid #ddd;
+  padding: 2rem 1rem 1rem;
+  background: #ddd;
+  margin: 2rem -1rem 0;
+
+}
+
+.cards {
+  line-height: 0;
+  margin-bottom: 0.5rem;
+}
+
+.answer {
+  float: right;
+  // display: flex;
+  // align-items: flex-end;
+
+}
+
+.show_hint {
+  float: left;
+}
+
+.clear_both {
+  clear: both;
+}
+
+.hint {
+  margin-bottom: 0;
+}
