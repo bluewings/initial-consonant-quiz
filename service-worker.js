@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/initial-consonant-quiz/precache-manifest.7b1b7b0e6ff38732dcf464d41b7aa70e.js"
+  "/initial-consonant-quiz/precache-manifest.e236f170da7e879e77f0247f7092e68c.js"
 );
 
 self.addEventListener('message', (event) => {
