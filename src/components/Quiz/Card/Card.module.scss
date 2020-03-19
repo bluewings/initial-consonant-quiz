@@ -1,0 +1,53 @@
+.root {
+  // background: #417689;
+  // padding: 10px;
+}
+
+.card {
+  background-color: transparent;
+  width: 2rem;
+  height: 2.5rem;
+  perspective: 5rem;
+  display: inline-block;
+  margin: 0.125rem;
+
+  &.open {
+    .inner {
+      transform: rotateY(180deg);
+    }
+  }
+
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid silver;
+    .front,
+    .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: MapoDPPA, Cafe24Danjunghae;
+    }
+
+    .front {
+      background-color: #ffffff;
+      color: black;
+    }
+
+    .back {
+      background-color: #2980b9;
+      color: white;
+      transform: rotateY(180deg);
+    }
+  }
+}

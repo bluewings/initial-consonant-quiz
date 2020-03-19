@@ -1,0 +1,88 @@
+// @import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Jua&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Jua&display=swap');
+
+@font-face {
+  font-family: 'Cafe24Danjunghae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Binggrae-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Dangdanghae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MapoDPPA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDPPA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SDKukdetopokki-Lt';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/SDKukdetopokki-aLt00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fromdamiM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/fromdamiM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Simplehae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.root {
+  background: #fff;
+  padding: 10px;
+  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
+  font-family: 'SDKukdetopokki-Lt', MapoDPPA, 'Binggrae-Bold', Cafe24Danjunghae;
+  // font-family: 'Black Han Sans', sans-serif;
+  font-family: Cafe24Dangdanghae;
+  font-family: MapoDPPA, Cafe24Danjunghae;
+  font-family: Cafe24Simplehae;
+
+  font-size: 1.25rem;
+
+  h1,
+  h2,
+  h3 {
+    font-family: fromdamiM;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .card {
+    padding: 0.25rem;
+    display: inline-block;
+    border: 1px solid silver;
+    font-family: MapoDPPA;
+    margin: 0.25rem;
+  }
+}
