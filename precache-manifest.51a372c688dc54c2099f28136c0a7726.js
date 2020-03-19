@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c189e8c8ecf9ef048d2e7d44d7f8864a",
+    "revision": "98f573222af178f213f53ccd70ef1731",
     "url": "/initial-consonant-quiz/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/initial-consonant-quiz/static/css/2.43bf519a.chunk.css"
   },
   {
-    "revision": "a7721cb6069632c65ce9",
+    "revision": "04adec591abbae12383c",
     "url": "/initial-consonant-quiz/static/css/main.aaf58606.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/initial-consonant-quiz/static/js/2.a2c17838.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7721cb6069632c65ce9",
-    "url": "/initial-consonant-quiz/static/js/main.3cb8bc52.chunk.js"
+    "revision": "04adec591abbae12383c",
+    "url": "/initial-consonant-quiz/static/js/main.d2ee7303.chunk.js"
   },
   {
     "revision": "196c6d69d326c361d37d",

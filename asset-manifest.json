@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/initial-consonant-quiz/static/css/main.aaf58606.chunk.css",
-    "main.js": "/initial-consonant-quiz/static/js/main.3cb8bc52.chunk.js",
-    "main.js.map": "/initial-consonant-quiz/static/js/main.3cb8bc52.chunk.js.map",
+    "main.js": "/initial-consonant-quiz/static/js/main.d2ee7303.chunk.js",
+    "main.js.map": "/initial-consonant-quiz/static/js/main.d2ee7303.chunk.js.map",
     "runtime-main.js": "/initial-consonant-quiz/static/js/runtime-main.4a64c11c.js",
     "runtime-main.js.map": "/initial-consonant-quiz/static/js/runtime-main.4a64c11c.js.map",
     "static/css/2.43bf519a.chunk.css": "/initial-consonant-quiz/static/css/2.43bf519a.chunk.css",
     "static/js/2.a2c17838.chunk.js": "/initial-consonant-quiz/static/js/2.a2c17838.chunk.js",
     "static/js/2.a2c17838.chunk.js.map": "/initial-consonant-quiz/static/js/2.a2c17838.chunk.js.map",
     "index.html": "/initial-consonant-quiz/index.html",
-    "precache-manifest.e236f170da7e879e77f0247f7092e68c.js": "/initial-consonant-quiz/precache-manifest.e236f170da7e879e77f0247f7092e68c.js",
+    "precache-manifest.51a372c688dc54c2099f28136c0a7726.js": "/initial-consonant-quiz/precache-manifest.51a372c688dc54c2099f28136c0a7726.js",
     "service-worker.js": "/initial-consonant-quiz/service-worker.js",
     "static/css/2.43bf519a.chunk.css.map": "/initial-consonant-quiz/static/css/2.43bf519a.chunk.css.map",
     "static/css/main.aaf58606.chunk.css.map": "/initial-consonant-quiz/static/css/main.aaf58606.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.43bf519a.chunk.css",
     "static/js/2.a2c17838.chunk.js",
     "static/css/main.aaf58606.chunk.css",
-    "static/js/main.3cb8bc52.chunk.js"
+    "static/js/main.d2ee7303.chunk.js"
   ]
 }
