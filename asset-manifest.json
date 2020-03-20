@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/initial-consonant-quiz/static/css/main.aaf58606.chunk.css",
-    "main.js": "/initial-consonant-quiz/static/js/main.d2ee7303.chunk.js",
-    "main.js.map": "/initial-consonant-quiz/static/js/main.d2ee7303.chunk.js.map",
+    "main.css": "/initial-consonant-quiz/static/css/main.477c05f5.chunk.css",
+    "main.js": "/initial-consonant-quiz/static/js/main.aaea9f15.chunk.js",
+    "main.js.map": "/initial-consonant-quiz/static/js/main.aaea9f15.chunk.js.map",
     "runtime-main.js": "/initial-consonant-quiz/static/js/runtime-main.4a64c11c.js",
     "runtime-main.js.map": "/initial-consonant-quiz/static/js/runtime-main.4a64c11c.js.map",
     "static/css/2.43bf519a.chunk.css": "/initial-consonant-quiz/static/css/2.43bf519a.chunk.css",
-    "static/js/2.a2c17838.chunk.js": "/initial-consonant-quiz/static/js/2.a2c17838.chunk.js",
-    "static/js/2.a2c17838.chunk.js.map": "/initial-consonant-quiz/static/js/2.a2c17838.chunk.js.map",
+    "static/js/2.f0cc475f.chunk.js": "/initial-consonant-quiz/static/js/2.f0cc475f.chunk.js",
+    "static/js/2.f0cc475f.chunk.js.map": "/initial-consonant-quiz/static/js/2.f0cc475f.chunk.js.map",
     "index.html": "/initial-consonant-quiz/index.html",
-    "precache-manifest.51a372c688dc54c2099f28136c0a7726.js": "/initial-consonant-quiz/precache-manifest.51a372c688dc54c2099f28136c0a7726.js",
+    "precache-manifest.9b5966a22b021ce1515eb4e5e5e0b430.js": "/initial-consonant-quiz/precache-manifest.9b5966a22b021ce1515eb4e5e5e0b430.js",
     "service-worker.js": "/initial-consonant-quiz/service-worker.js",
     "static/css/2.43bf519a.chunk.css.map": "/initial-consonant-quiz/static/css/2.43bf519a.chunk.css.map",
-    "static/css/main.aaf58606.chunk.css.map": "/initial-consonant-quiz/static/css/main.aaf58606.chunk.css.map",
-    "static/js/2.a2c17838.chunk.js.LICENSE.txt": "/initial-consonant-quiz/static/js/2.a2c17838.chunk.js.LICENSE.txt"
+    "static/css/main.477c05f5.chunk.css.map": "/initial-consonant-quiz/static/css/main.477c05f5.chunk.css.map",
+    "static/js/2.f0cc475f.chunk.js.LICENSE.txt": "/initial-consonant-quiz/static/js/2.f0cc475f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a64c11c.js",
     "static/css/2.43bf519a.chunk.css",
-    "static/js/2.a2c17838.chunk.js",
-    "static/css/main.aaf58606.chunk.css",
-    "static/js/main.d2ee7303.chunk.js"
+    "static/js/2.f0cc475f.chunk.js",
+    "static/css/main.477c05f5.chunk.css",
+    "static/js/main.aaea9f15.chunk.js"
   ]
 }
