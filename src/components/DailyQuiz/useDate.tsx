@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { format, addDays, differenceInDays, startOfDay } from 'date-fns';
 import styles from './useDate.module.scss';
 
-const startOfThis = startOfDay(new Date('2020-03-19'));
+const startOfThis = startOfDay(new Date('2020-03-18'));
 const today = startOfDay(new Date());
 
 const dateFormat = (date: any) => format(new Date(date), 'M월 d일');
@@ -28,21 +28,17 @@ function useDate() {
     return () => (
       <div className={styles.root}>
         {showPrev && (
-          <>
-            <a href="" onClick={toPrev}>
-              이전
-            </a>
+          <span>
+            <button onClick={toPrev}>이전</button>
             &nbsp;•&nbsp;
-          </>
+          </span>
         )}
         {dateStr}
         {showNext && (
-          <>
+          <span>
             &nbsp;•&nbsp;
-            <a href="" onClick={toNext}>
-              다음
-            </a>
-          </>
+            <button onClick={toNext}>다음</button>
+          </span>
         )}
       </div>
     );

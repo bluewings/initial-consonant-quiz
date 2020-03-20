@@ -1,10 +1,34 @@
+$color: #ccc;
+
 .root {
   // background: #E51FA0;
   // padding: 10px;
   // border: 1px solid #ddd;
-  padding: 2rem 1rem 1rem;
-  background: #ddd;
-  margin: 2rem -1rem 0;
+  position: relative;
+  padding: 1.5rem 1rem 1rem;
+  background: $color;
+  margin: 3rem -1rem 0;
+  --blue: #007acc;
+
+  // var linkCar --#007acc
+  button {
+    border: none;
+    padding: 0;
+    background: transparent;
+    color: var(--blue);
+  }
+}
+
+.no {
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+  color: $color;
+  font-family: 'Montserrat', sans-serif;
+  // font-weight: 900;
+  font-size: 2rem;
+  top: -1.7rem;
+  line-height: 2rem;
 
 }
 
@@ -17,7 +41,6 @@
   float: right;
   // display: flex;
   // align-items: flex-end;
-
 }
 
 .show_hint {

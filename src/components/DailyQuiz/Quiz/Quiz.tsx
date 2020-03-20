@@ -3,8 +3,7 @@ import Card from '../Card';
 import styles from './Quiz.module.scss';
 
 function Quiz(props: any) {
-  const { chars, level } = props;
-  // console.log(props);
+  const { no, chars, level } = props;
   const [showHint, setHint] = useState(false);
   const [showAns, setAns] = useState(false);
 
@@ -26,6 +25,7 @@ function Quiz(props: any) {
 
   return (
     <div className={styles.root}>
+      <div className={styles.no}>{no}</div>
       <div className={styles.cards}>
         {chars.map((f: any, i: number) => (
           <Card key={i} {...f} open={showAns || f.timing <= level} />
@@ -36,14 +36,14 @@ function Quiz(props: any) {
           {props.hint}
         </p>
       ) : (
-        <a className={styles.show_hint} onClick={sss}>
+        <button className={styles.show_hint} onClick={sss}>
           힌트
-        </a>
+        </button>
       )}
       {!showAns && (
-        <a className={styles.answer} onClick={ddd}>
+        <button className={styles.answer} onClick={ddd}>
           정답 확인
-        </a>
+        </button>
       )}
 
       <div className={styles.clear_both} />

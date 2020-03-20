@@ -1,3 +1,12 @@
 .root {
   font-weight: bold;
+  --blue: #007acc;
+
+  button {
+    border: none;
+    padding: 0;
+    background: transparent;
+    color: var(--blue);
+    font-weight: bold;
+  }
 }
