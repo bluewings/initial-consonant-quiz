@@ -1,5 +1,5 @@
 $color: #ddd;
-$color2: #888;
+$color2: #aaa;
 
 .root {
   position: relative;
@@ -24,8 +24,8 @@ $color2: #888;
     color: var(--blue);
   }
 
-  border-top: 1px solid $color2;
-  border-bottom: 1px solid $color2;
+  border-top: 0.3rem solid $color2;
+  // border-bottom: 1px solid $color2;
   z-index: 2;
 }
 
