@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/initial-consonant-quiz/static/css/main.ced0cef9.chunk.css",
+    "main.css": "/initial-consonant-quiz/static/css/main.1f9c323c.chunk.css",
     "main.js": "/initial-consonant-quiz/static/js/main.4c9f9486.chunk.js",
     "main.js.map": "/initial-consonant-quiz/static/js/main.4c9f9486.chunk.js.map",
     "runtime-main.js": "/initial-consonant-quiz/static/js/runtime-main.4a64c11c.js",
@@ -9,17 +9,17 @@
     "static/js/2.3294849c.chunk.js": "/initial-consonant-quiz/static/js/2.3294849c.chunk.js",
     "static/js/2.3294849c.chunk.js.map": "/initial-consonant-quiz/static/js/2.3294849c.chunk.js.map",
     "index.html": "/initial-consonant-quiz/index.html",
-    "precache-manifest.a0bb3cf7fc5709e5d0ab66765ac638a2.js": "/initial-consonant-quiz/precache-manifest.a0bb3cf7fc5709e5d0ab66765ac638a2.js",
+    "precache-manifest.2796452ce932467ed6c498b7c08ac494.js": "/initial-consonant-quiz/precache-manifest.2796452ce932467ed6c498b7c08ac494.js",
     "service-worker.js": "/initial-consonant-quiz/service-worker.js",
     "static/css/2.43bf519a.chunk.css.map": "/initial-consonant-quiz/static/css/2.43bf519a.chunk.css.map",
-    "static/css/main.ced0cef9.chunk.css.map": "/initial-consonant-quiz/static/css/main.ced0cef9.chunk.css.map",
+    "static/css/main.1f9c323c.chunk.css.map": "/initial-consonant-quiz/static/css/main.1f9c323c.chunk.css.map",
     "static/js/2.3294849c.chunk.js.LICENSE.txt": "/initial-consonant-quiz/static/js/2.3294849c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a64c11c.js",
     "static/css/2.43bf519a.chunk.css",
     "static/js/2.3294849c.chunk.js",
-    "static/css/main.ced0cef9.chunk.css",
+    "static/css/main.1f9c323c.chunk.css",
     "static/js/main.4c9f9486.chunk.js"
   ]
 }
